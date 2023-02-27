@@ -1,0 +1,187 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+h4,h3,p{
+    color:#006d77;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+#hero{
+    background-image:url("images/city.webp");
+    background-size:cover;
+    height:343px;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:0;
+}
+#hero-title{
+  background: #006d77;
+  border-radius: 10px;
+  padding:3px 12px;
+  margin-top:100px 0 0px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  font-weight:600;
+}
+#hero-description{
+    background: #2a9d8f;
+    border-radius: 10px;
+    margin-top:15px;
+    width:500px;
+    padding:3px 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 22px;
+    text-align: center;
+}
+#activities{
+    margin-top:-20px;
+    height:378px;
+    background: #edf6f9;
+    padding:35px 0  30px 0;
+}
+#activities-intro{
+    margin:39px 0 54px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+#activities-list{
+    display:flex;
+    justify-content:space-around;
+}
+.activities-list-item{
+    margin-left:50px;
+    margin-right:50px;
+}
+.activities-item-img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    transition: width 2s, height 2s, transform 2s;
+}
+.activities-item-img:hover{
+    transition: transform 2s;
+    transform:scale(1.2);
+}
+.activities-item-title, #guide-tour-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+.activities-list-description{
+    width:300px;
+    font-style: normal;
+}
+#contact{
+    display:flex;
+}
+#guide-card{
+    display:flex;
+    width:400px;
+    margin:50px auto;
+    height:294px;
+    background: #edf6f9;
+    border-radius: 10px;
+    box-shadow:10px 10px 2px #2a9d8f;
+    transition: width 2s ,height 2s,transform 2s;
+}
+
+#guide-card:hover{
+    transform:rotate(10deg) translateX(180px);
+}
+
+#avatar{
+    width: 180px;
+    max-width:500px;
+    height: 248.67px;
+    border-radius: 10px;
+    margin:23px 7px 22px 13px;
+}
+#guide-card-decription{
+    padding:40px 0 84px 0;
+}
+#guide-card-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+#guide-card-about{
+    font-style: italic;
+}
+#guide-tour-name{
+    margin-top:26px;
+}
+#contact-form{
+    display:flex;
+    margin: 50px auto;
+    height:294px;
+    background: #edf6f9;
+    border-radius: 10px;
+    box-shadow:10px 10px 2px #2a9d8f;
+}
+
+#contact-form-input{
+    display:flex;
+    flex-direction:column;
+    margin:70px 23px;
+    align-items:center;
+}
+
+#contact-name{
+    margin:0 0 43px 20px;
+}
+#contact-email{
+    margin-left: 60px;
+}
+.contact-info{
+    margin-left:5px;
+}
+#contact-btn{
+    font-weight:600;
+    text-transform: uppercase;
+    background:#006d77;
+    color:white;
+    width:150px;
+    height:70px;
+    padding:8px 16px;
+    line-height:22px;
+    border:none;
+    margin:25px 0 23px 70px;
+    border:none; 
+    border-radius: 10px;
+    transition: width 2s ,height 2s,box-shadow 2s;
+}
+#contact-btn:hover{
+    box-shadow: 0px 0px 5px #1D3557;
+}
+#contact{
+    display:flex;
+    justify-content:center;
+}
